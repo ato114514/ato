@@ -1,8 +1,8 @@
 local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore'))()
 
-local Window = library:CreateWindow("[免费脚本]脚本中心", "ato制作", 10044538000)
+local Window = library:CreateWindow("[免费脚本]蜂群模拟器", "ato制作", 10044538000)
 
-local Tab = Window:CreateTab("游戏脚本列表")
+local Tab = Window:CreateTab("蜂群模拟器")
 
 local Page = Tab:CreateFrame("蜂群模拟器")
 
