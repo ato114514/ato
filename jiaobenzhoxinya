@@ -46,6 +46,11 @@ local Window = library:CreateWindow("[免费脚本]脚本中心", "ato制作", 1
 
 local Tab = Window:CreateTab("游戏脚本列表")
 
+local Page = Tab:CreateFrame("公告")
+
+Label = Page:CreateLabel("Label")
+Label:UpdateLabel("这脚本是免费的如果你花钱买你就被骗了。如何获得本脚本的白名单？去b站关注ato，完事后在b站私聊ato并给ato发你的用户名，就能获得白名单了。作者QQ号2571200581。作者b站名无所畏惧的ato。")
+
 local Page = Tab:CreateFrame("通用功能")
 
 TextBox = Page:CreateBox("自定义速度", 10044538000, function(arg)
