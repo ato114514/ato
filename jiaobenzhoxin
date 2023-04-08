@@ -54,10 +54,10 @@ Label:UpdateLabel("极狐，龙叔，恶俗鸟")
 local Page = Tab:CreateFrame("公告")
 
 Label = Page:CreateLabel("Label")
-Label:UpdateLabel("这脚本是免费的如果你花钱买你就被骗了。如何获得本脚本的白名单？去b站关注ato，完事后在b站私聊ato并")
+Label:UpdateLabel("这脚本是免费的如果你花钱买你就被骗了。如何获得本脚本的白名单？去b站关注ato，完事后在QQ站私聊ato并")
 
 Label = Page:CreateLabel("Label")
-Label:UpdateLabel("给ato发你的用户名，就能获得白名单了。作者QQ号2571200581。作者b站名无所畏惧的ato。")
+Label:UpdateLabel("给ato发你的用户名，b站关注截图就能获得白名单了。作者QQ号2013892874。作者b站名无所畏惧的ato。")
 
 local Page = Tab:CreateFrame("通用功能")
 
