@@ -271,6 +271,6 @@ end)
 
 local Page = Tab:CreateFrame("蜂群模拟器")
 
-Button = Page:CreateButton("蜂群模拟器（额外UI）, "免费脚本，请勿倒卖", function()
+Button = Page:CreateButton("蜂群模拟器（额外UI）,免费脚本，请勿倒卖", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ato114514/jiamigongneng/main/jiamifengqun"))()
 end)
