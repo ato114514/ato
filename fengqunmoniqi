@@ -1,0 +1,175 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore'))()
+
+local Window = library:CreateWindow("[免费脚本]脚本中心", "ato制作", 10044538000)
+
+local Tab = Window:CreateTab("游戏脚本列表")
+
+local Page = Tab:CreateFrame("蜂群模拟器")
+
+Button = Page:CreateButton("传送到隧道熊", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(507.3, 5.7, -45.7)
+end)
+
+Button = Page:CreateButton("传送到红田加速器", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-332, 20, 244)
+end)
+
+Button = Page:CreateButton("传送到蓝田加速器", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319, 58, 103)
+end)
+
+Button = Page:CreateButton("传送到山顶加速器", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40, 176, -191.7)
+end)
+
+Button = Page:CreateButton("传送到蜜蜂商店", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-136.8, 4.6, 243.4)
+end)
+
+Button = Page:CreateButton("传送到工具商店1", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(86, 4.6, 294)
+end)
+
+Button = Page:CreateButton("传送到工具商店2", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165, 69, -161)
+end)
+
+Button = Page:CreateButton("传送到山顶商店", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18, 176, -137)
+end)
+
+Button = Page:CreateButton("传送到红色俱乐部", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-334, 21, 216)
+end)
+
+Button = Page:CreateButton("传送到蓝色俱乐部", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(292, 4, 98)
+end)
+
+Button = Page:CreateButton("传送到票卷商店", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12.8, 184, -222.2)
+end)
+
+Button = Page:CreateButton("传送到蜂蜜俱乐部", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(44.8, 5, 319.6)
+end)
+
+Button = Page:CreateButton("传送到皇家凝露商店", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-297, 53, 68)
+end)
+
+Button = Page:CreateButton("传送到票卷兑换皇家凝露商店", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(81, 18, 240)
+end)
+
+Button = Page:CreateButton("传送到蜂蜜风暴召唤器", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(238.4, 33.3, 165.6)
+end)
+
+Button = Page:CreateButton("传送到蓝莓售货机", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(313.3, 58, 86.9)
+end)
+
+Button = Page:CreateButton("传送到草莓售货机", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-320.5, 46, 272.5)
+end)
+
+Button = Page:CreateButton("传送到萌芽召唤器", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-269.26, 26.56, 267.31)
+end)
+
+Button = Page:CreateButton("传送到立刻转化蜂蜜机", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(282, 68, -62)
+end)
+
+Button = Page:CreateButton("传送到甲虫王巢穴", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(218, 3, 140)
+end)
+
+Button = Page:CreateButton("传送到三叶草田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(174, 34, 189)
+end)
+
+Button = Page:CreateButton("传送到蘑菇田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-258.1, 5, 299.7)
+end)
+
+Button = Page:CreateButton("传送到蜘蛛田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57.2, 20, -5.3)
+end)
+
+Button = Page:CreateButton("传送到蓝花田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(113.7, 4, 101.5)
+end)
+
+Button = Page:CreateButton("传送到向日葵田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-208, 4, 185)
+end)
+
+Button = Page:CreateButton("传送到草莓田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-169.3, 20, -3.2)
+end)
+
+Button = Page:CreateButton("传送到红花田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-258.1, 5, 299.7)
+end)
+
+Button = Page:CreateButton("传送到蒲公英田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30, 4, 225)
+end)
+
+Button = Page:CreateButton("传送到竹子田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(93, 20, -25)
+end)
+
+Button = Page:CreateButton("传送到玫瑰田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-322, 20, 124)
+end)
+
+Button = Page:CreateButton("传送到蘑菇田2", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-94, 5, 116)
+end)
+
+Button = Page:CreateButton("传送到仙人掌田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-194, 68, -107)
+end)
+
+Button = Page:CreateButton("传送到南瓜田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-194, 68, -182)
+end)
+
+Button = Page:CreateButton("传送到山顶田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(76, 176, -181)
+end)
+
+Button = Page:CreateButton("传送到松树田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-318, 68, -150)
+end)
+
+Button = Page:CreateButton("传送到菠萝田", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(262, 68, -201)
+end)
+
+Button = Page:CreateButton("传送到欧奈特", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8.4, 234, -517.9)
+end)
+
+Button = Page:CreateButton("传送到橡皮糖售货机", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(63, 20.7, 38.7)
+end)
+
+Button = Page:CreateButton("传送到饼干售货机", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(193.9, 68, -123)
+end)
+
+Button = Page:CreateButton("传送到饼干商店", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-228.2, 5, 89.4)
+end)
+
+Button = Page:CreateButton("传送到星光小屋", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.9, 64.6, 322.1)
+end)
+
+Button = Page:CreateButton("传送到财富时钟", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(310.5, 47.6, 190)
+end)
