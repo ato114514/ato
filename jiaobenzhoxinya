@@ -46,10 +46,18 @@ local Window = library:CreateWindow("[免费脚本]脚本中心", "ato制作", 1
 
 local Tab = Window:CreateTab("游戏脚本列表")
 
+local Page = Tab:CreateFrame("致谢人员")
+
+Label = Page:CreateLabel("Label")
+Label:UpdateLabel("极狐，龙叔，恶俗鸟")
+
 local Page = Tab:CreateFrame("公告")
 
 Label = Page:CreateLabel("Label")
-Label:UpdateLabel("这脚本是免费的如果你花钱买你就被骗了。如何获得本脚本的白名单？去b站关注ato，完事后在b站私聊ato并给ato发你的用户名，就能获得白名单了。作者QQ号2571200581。作者b站名无所畏惧的ato。")
+Label:UpdateLabel("这脚本是免费的如果你花钱买你就被骗了。如何获得本脚本的白名单？去b站关注ato，完事后在b站私聊ato并")
+
+Label = Page:CreateLabel("Label")
+Label:UpdateLabel("给ato发你的用户名，就能获得白名单了。作者QQ号2571200581。作者b站名无所畏惧的ato。")
 
 local Page = Tab:CreateFrame("通用功能")
 
@@ -403,3 +411,10 @@ end)
 Button = Page:CreateButton("传送到财富时钟", "免费脚本，请勿倒卖", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(310.5, 47.6, 190)
 end)
+
+local Page = Tab:CreateFrame("神圣举重员")
+
+Button = Page:CreateButton("传送到24.75倍力量加成区域", "免费脚本，请勿倒卖", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new((8153.5869140625, -24.210166931152344, 5342.92626953125))
+end)
+
