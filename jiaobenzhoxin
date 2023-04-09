@@ -93,7 +93,6 @@ local GC = getconnections or get_signal_cons
 	end)
 
 end
-end)
 
 local Page = Tab:CreateFrame("通用功能")
 
