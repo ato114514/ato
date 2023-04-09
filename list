@@ -22,6 +22,20 @@ elseif a=="pih3774"then
 _G.whitelisted=true
 elseif a=="tpaccep"then
 _G.whitelisted=true
+elseif a=="21444q"then
+_G.whitelisted=true
+elseif a=="cmhehebeb"then
+_G.whitelisted=true
+elseif a=="ttuffjhhf"then
+_G.whitelisted=true
+elseif a=="jjdjdjd45llll"then
+_G.whitelisted=true
+elseif a=="yfhjfgjuu8466"then
+_G.whitelisted=true
+elseif a=="29720l"then
+_G.whitelisted=true
+elseif a=="apbgekapbgek"then
+_G.whitelisted=true
 end
 if _G.whitelisted==true then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/atoyayaya/jiaoben/main/jiamijiaobenzhoxin"))()
