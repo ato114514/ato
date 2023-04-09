@@ -20,7 +20,7 @@ elseif a=="zhang628"then
 _G.whitelisted=true
 elseif a=="pih3774"then
 _G.whitelisted=true
-elseif a=="hi32mop"then
+elseif a=="tpaccep"then
 _G.whitelisted=true
 end
 if _G.whitelisted==true then
