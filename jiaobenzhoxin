@@ -269,8 +269,3 @@ Button = Page:CreateButton("远程打开商店界面", "免费脚本，请勿倒
 game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
 end)
 
-local Page = Tab:CreateFrame("蜂群模拟器")
-
-Button = Page:CreateButton("蜂群模拟器（额外UI）,免费脚本，请勿倒卖", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ato114514/jiamigongneng/main/jiamifengqun"))()
-end)
