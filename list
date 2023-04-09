@@ -8,6 +8,10 @@ elseif a=="ffjfjcjid"then
 _G.whitelisted=true
 elseif a=="uwbd2819"then
 _G.whitelisted=true
+elseif a=="fykyidyijyyi"then
+_G.whitelisted=true
+elseif a=="123456qqqqwqqq"then
+_G.whitelisted=true
 end
 if _G.whitelisted==true then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/atoyayaya/jiaoben/main/jiamijiaobenzhoxin"))()
