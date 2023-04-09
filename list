@@ -1,0 +1,17 @@
+repeat
+    task.wait()
+until game.Players.LocalPlayer.Character~=nil;
+local a=tostring(game.Players.LocalPlayer.Character);
+if a=="mulijieshuo"then
+_G.whitelisted=true
+elseif a=="wu"then
+_G.whitelisted=true
+elseif a=="qwert"then
+_G.whitelisted=true
+end
+if _G.whitelisted==true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/atoyayaya/jiaoben/main/jiamijiaobenzhoxin"))()
+    else
+ 
+game.Players.LocalPlayer:Kick(a.."你没有白名单，请去b站关注无所畏惧的ato，然后加ato好友，发b站名，roblox用户名，b站关注截图")
+end
