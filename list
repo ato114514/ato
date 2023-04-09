@@ -12,11 +12,13 @@ elseif a=="fykyidyijyyi"then
 _G.whitelisted=true
 elseif a=="123456qqqqwqqq"then
 _G.whitelisted=true
-elseif a=="Dgrtym"then
+elseif a=="robloxchina1111"then
 _G.whitelisted=true
 elseif a=="Expmation"then
 _G.whitelisted=true
 elseif a=="zhang628"then
+_G.whitelisted=true
+elseif a=="pih3774"then
 _G.whitelisted=true
 end
 if _G.whitelisted==true then
