@@ -59,6 +59,42 @@ Label:UpdateLabel("这脚本是免费的如果你花钱买你就被骗了。如�
 Label = Page:CreateLabel("Label")
 Label:UpdateLabel("给ato发你的用户名，b站关注截图就能获得白名单了。作者QQ号2013892874。作者b站名无所畏惧的ato。")
 
+Button = Page:CreateButton("复制作者QQ号", "免费脚本，请勿倒卖", function()
+    setclipboard("2013892874")
+end)
+local GC = getconnections or get_signal_cons
+
+	if GC then
+
+		for i,v in pairs(GC(game.Players.LocalPlayer.Idled)) do
+
+			if v["Disable"] then
+
+				v["Disable"](v)
+ 
+			elseif v["Disconnect"] then
+
+				v["Disconnect"](v)
+
+			end
+
+		end
+
+	else
+
+		game.Players.LocalPlayer.Idled:Connect(function()
+
+			local VirtualUser = game:GetService("VirtualUser")
+
+			VirtualUser:CaptureController()
+
+			VirtualUser:ClickButton2(Vector2.new())
+
+	end)
+
+end
+end)
+
 local Page = Tab:CreateFrame("通用功能")
 
 TextBox = Page:CreateBox("自定义速度", 10044538000, function(arg)
@@ -269,3 +305,13 @@ Button = Page:CreateButton("远程打开商店界面", "免费脚本，请勿倒
 game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
 end)
 
+local Page = Tab:CreateFrame("忍者传奇")
+
+Button = Page:CreateButton("一键传送到所有岛", "免费脚本，请勿倒卖", function()
+for i,v in next, game.workspace.islandUnlockParts:GetChildren() do 
+if v then 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.islandSignPart.CFrame -Vector3.new(0,80, 0)
+wait(0.5)
+end
+end
+end)
